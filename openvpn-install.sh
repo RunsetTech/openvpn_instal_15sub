@@ -764,7 +764,7 @@ persist-tun
 keepalive 10 120
 duplicate-cn
 topology subnet
-server 10.0.0.0 255.255.255.0
+server 10.0.0.0 255.255.0.0
 ifconfig-pool-persist ipp.txt" >>/etc/openvpn/server.conf
 
 	# DNS resolvers
